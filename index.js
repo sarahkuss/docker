@@ -6,7 +6,7 @@ app.use(cors())
 
 
 app.get('/', (req,res) => {
-  res.send('Hello Docker! 🐳')
+  res.send('Hello Docker! 🐳!')
 })
 
 app.listen(3000, () => {
